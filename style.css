@@ -28,7 +28,7 @@ body::before {
   width: 100%;
   z-index: -1;
   background: black;
-  background-image: url('images/buildasurvey.jpg');
+  background-image: url('images/image.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
