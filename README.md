@@ -3,7 +3,7 @@
 🎯 A responsive survey form built as part of the freeCodeCamp project challenge.
 
 ## 🌐 Demo
-[Live Demo](https://ton-pseudo.github.io/build-a-survey-form/)
+[Live Demo](https://sihemdjh.github.io/Build_a_Survey_Form/)
 
 ## 🛠 Technologies
 - HTML5
