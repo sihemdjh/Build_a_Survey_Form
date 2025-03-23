@@ -1,0 +1,138 @@
+<title>Build a Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<script src="bootstrap.bundle.min.js"></script> 
+	<h1 id="title">freecodecamp Survey Form</h1> 
+  
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+  <div class="fullCard" id="thumbnail">
+	<div class="cardContent">
+		<div class="cardText">
+	       <form id="survey-form">
+		        <label id="name-label"> Name<br />
+		            <input id="name" placeholder="Enter your name" class="information" >
+	            </label>
+	            <br />
+	            <label id="email-label">
+		            Email<br />
+		            <input id="email" placeholder="Enter your Email " class="information">
+		        </label>
+		        <br />
+		        <label id="number-label">        
+		            Age (optional)<br />
+		            <input type="number" id="number" placeholder="Age" min="18" max="90" class="information">
+		        </label><br />
+		        <label>Which option best describes your current role?</label>
+		        <select class="information" aria-label="Default select example">
+                    <option selected>Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">prefert not to say</option>
+                    <option value="5">Other</option>
+                    </select> 
+              <label> Would you recommend freeCodeCamp to a friend?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                     Definitely
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                     Maybe
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                    <label class="form-check-label" for="flexRadioDefault3">
+                      Not sure
+                    </label>
+                </div>
+                <select class="information" label="Default select example">
+                    <option selected>Select an option</option>
+                    <option value="1">Challenges</option>
+                    <option value="2">Projects</option>
+                    <option value="3">Commumity</option>
+                    <option value="4">Open Source</option>
+            
+                </select>
+                <label>What would you like to see improved? (Check all that apply)</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Front-end Projects
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                       Back-end Projects
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Data Visualization
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Challenges
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Open Source Community
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                       Gitter help rooms
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Videos
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                       City Meetups
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                    <label class="form-check-label" for="flexCheckDefault">
+                            Wiki
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Forum
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                       Additional Courses
+                    </label>
+                </div><br />
+                      <label> Any comments or suggestions?</label>
+                <div class="form-floating">
+                    <textarea class="information" placeholder="Enter your comment here..."id="floatingTextarea2" style="height: 100px">Enter your comment here...</textarea>
+                    
+                </div>
+                <input type="submit" value="Submit" id="submit" class="information">		
+	</form>
+</div>
+</div>
+</div>
